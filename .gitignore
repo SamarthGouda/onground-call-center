@@ -1,0 +1,19 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.system_generated/
+scratch/
+
+# Reference artifacts
+OnGround_CallCentre_App_Mock.html
+OnGround_Intern_Assignment_CallCentre_App*.pdf
+*.webp
+*.png

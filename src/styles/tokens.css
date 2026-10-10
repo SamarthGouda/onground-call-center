@@ -1,0 +1,77 @@
+/* OnGround.ai Design System Tokens */
+:root {
+  /* Brand & Theme Colors */
+  --og-brand-primary: #1d9e75;
+  --og-brand-dark: #0f6e56;
+  --og-brand-light: #e1f5ee;
+  
+  /* Sidebar Palette */
+  --sidebar-bg-top: #123c30;
+  --sidebar-bg-bottom: #0d2e26;
+  --sidebar-text: #a9c4ba;
+  --sidebar-text-muted: #89a89c;
+  --sidebar-text-hover: #cfe4dc;
+  --sidebar-text-active: #ffffff;
+  --sidebar-item-hover: rgba(255, 255, 255, 0.06);
+  --sidebar-item-active: rgba(255, 255, 255, 0.08);
+  --sidebar-sub-active: rgba(93, 202, 165, 0.16);
+  --sidebar-sub-color: #7ee0bb;
+
+  /* Topbar */
+  --topbar-bg: rgba(18, 60, 48, 0.98);
+  --topbar-text: #ffffff;
+  --topbar-border: rgba(255, 255, 255, 0.08);
+
+  /* Neutrals & Surfaces */
+  --bg-page: #f2f2f7;
+  --surface-card: #ffffff;
+  --surface-subtle: #f8f8fa;
+  --surface-hover: #f1f1f5;
+  --border-subtle: #e5e5ea;
+  --border-light: #ece7fa;
+  --border-card: #f0f0f4;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --text-main: #1a1a1a;
+  --text-secondary: #4a4a52;
+  --text-muted: #8e8e93;
+  --text-tertiary: #a8a8ad;
+  --text-inverse: #ffffff;
+
+  /* Semantic Status Colors */
+  --color-success: #0f6e56;
+  --color-success-bg: #e1f5ee;
+  --color-success-bright: #1d9e75;
+  --color-warning: #c8860a;
+  --color-warning-bg: #fff8e1;
+  --color-warning-bright: #f59e0b;
+  --color-danger: #e24b4a;
+  --color-danger-bg: #fdecec;
+  --color-danger-bright: #ef4444;
+  --color-info: #185fa5;
+  --color-info-bg: #e8f0fe;
+  --color-purple: #6b2fa0;
+  --color-purple-bg: #f3e8ff;
+  --color-purple-bright: #7c3aed;
+  --color-amber: #d97706;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-card: 0 2px 8px rgba(16, 24, 40, 0.06), 0 1px 2px rgba(16, 24, 40, 0.04);
+  --shadow-card-hover: 0 6px 16px rgba(16, 24, 40, 0.1), 0 2px 4px rgba(16, 24, 40, 0.06);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.16);
+  --shadow-modal: 0 24px 64px rgba(0, 0, 0, 0.35);
+
+  /* Radii */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.12s ease;
+  --transition-normal: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
